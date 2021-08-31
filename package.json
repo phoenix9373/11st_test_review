@@ -1,24 +1,36 @@
 {
   "name": "11st_tech_test",
   "version": "1.0.0",
-  "description": "",
+  "description": "The 11st Test Remind",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack-dev-server --open",
-    "build": "webpack"
+    "start": "webpack-dev-server --open --progress",
+    "build": "webpack",
+    "test": "jest"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {},
   "devDependencies": {
+    "@babel/cli": "^7.14.8",
+    "@babel/core": "^7.15.0",
+    "@babel/plugin-transform-arrow-functions": "^7.14.5",
+    "@babel/plugin-transform-block-scoping": "^7.15.3",
+    "@babel/plugin-transform-strict-mode": "^7.14.5",
+    "@babel/preset-env": "^7.15.0",
+    "babel-loader": "^8.2.2",
+    "core-js": "^2.6.12",
     "css-loader": "^5.2.7",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
     "file-loader": "^5.1.0",
     "html-webpack-plugin": "^4.5.2",
+    "jest": "^27.1.0",
+    "prettier": "^2.3.2",
     "style-loader": "^2.0.0",
     "webpack": "^4.46.0",
-    "webpack-cli": "^4.8.0",
-    "webpack-dev-server": "^4.0.0"
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.2"
   }
 }
